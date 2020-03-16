@@ -40,7 +40,7 @@ public class TimeKeeper {
     }
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @Column(name = "EMP_ID", nullable = false)
+    @JoinColumn(name = "EMP_ID", nullable = false)
     public Employee getEmployee() {
         return employee;
     }
