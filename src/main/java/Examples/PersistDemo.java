@@ -2,6 +2,7 @@ package Examples;
 
 import Entities.Department;
 import Entities.Employee;
+import Utils.DataUtils;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 

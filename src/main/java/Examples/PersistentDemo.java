@@ -1,6 +1,7 @@
 package Examples;
 
 import Entities.Department;
+import Utils.DataUtils;
 import Utils.HibernateUtils;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

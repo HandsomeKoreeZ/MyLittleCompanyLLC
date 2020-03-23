@@ -1,4 +1,4 @@
-package Examples;
+package Utils;
 
 import Entities.Department;
 import Entities.Employee;

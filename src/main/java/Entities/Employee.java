@@ -101,7 +101,6 @@ public class Employee {
     }
 
     @Column(name = "IMAGE", length = 1111111, nullable = true)
-    @Lob
     public byte[] getImage() {
         return image;
     }
